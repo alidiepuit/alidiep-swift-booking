@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.3)
+  - Cuckoo (0.11.3)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - Cuckoo (= 0.11.3)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Cuckoo
+    - SnapKit
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  Cuckoo: 97522dd7ac6f18adba6022bdc74aa69e82ca691a
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 36c03dc28b7a874ac453579e1a56b7d39827aeab
+
+COCOAPODS: 1.10.1
