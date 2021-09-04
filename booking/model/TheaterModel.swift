@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct TheaterModel: Codable {
-    var seats: [SeatModel]
+struct TheaterModel {
+    var seats: [SeatView]
     var cols: Int
     var rows: Int
 }

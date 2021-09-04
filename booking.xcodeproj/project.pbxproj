@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0667C7BC31B81C0527283012 /* Pods_bookingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B17EF0DCC01CC7CDD3F96314 /* Pods_bookingTests.framework */; };
-		990B40F17A4CA2C0D4D39ACE /* Pods_booking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35034508BE7CDFFBC3691252 /* Pods_booking.framework */; };
+		2169C264123EA9026E4B7CC6 /* Pods_bookingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56A892660319FC4604149101 /* Pods_bookingTests.framework */; };
+		26BFBEFA67546FE5D08E1AF7 /* Pods_booking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCEBFB24C3696CE576CD121 /* Pods_booking.framework */; };
 		FF65324A26E310CA00D7D060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65324926E310CA00D7D060 /* AppDelegate.swift */; };
 		FF65324C26E310CA00D7D060 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65324B26E310CA00D7D060 /* SceneDelegate.swift */; };
 		FF65324E26E310CA00D7D060 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65324D26E310CA00D7D060 /* ViewController.swift */; };
@@ -17,17 +17,25 @@
 		FF65325626E310CB00D7D060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF65325426E310CB00D7D060 /* LaunchScreen.storyboard */; };
 		FF65326126E310CB00D7D060 /* bookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65326026E310CB00D7D060 /* bookingTests.swift */; };
 		FF65326C26E310CB00D7D060 /* bookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65326B26E310CB00D7D060 /* bookingUITests.swift */; };
-		FF65327D26E314A600D7D060 /* SelectSeatPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65327C26E314A600D7D060 /* SelectSeatPresenter.swift */; };
-		FF65327F26E314B900D7D060 /* SelectSeatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65327E26E314B900D7D060 /* SelectSeatViewController.swift */; };
-		FF65328126E314C700D7D060 /* SelectSeatInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328026E314C700D7D060 /* SelectSeatInteractor.swift */; };
-		FF65328326E314EB00D7D060 /* SelectSeatProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328226E314EB00D7D060 /* SelectSeatProtocol.swift */; };
-		FF65328526E316A600D7D060 /* SeatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328426E316A600D7D060 /* SeatModel.swift */; };
+		FF65327D26E314A600D7D060 /* TheaterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65327C26E314A600D7D060 /* TheaterPresenter.swift */; };
+		FF65327F26E314B900D7D060 /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65327E26E314B900D7D060 /* TheaterViewController.swift */; };
+		FF65328126E314C700D7D060 /* TheaterInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328026E314C700D7D060 /* TheaterInteractor.swift */; };
+		FF65328326E314EB00D7D060 /* TheaterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328226E314EB00D7D060 /* TheaterProtocol.swift */; };
+		FF65328526E316A600D7D060 /* SeatEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328426E316A600D7D060 /* SeatEntity.swift */; };
 		FF65328726E31DCD00D7D060 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328626E31DCD00D7D060 /* Extension.swift */; };
 		FF65328A26E31FDE00D7D060 /* BookingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328926E31FDE00D7D060 /* BookingManager.swift */; };
 		FF65328C26E3204400D7D060 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328B26E3204400D7D060 /* APIClient.swift */; };
-		FF65329026E324E900D7D060 /* TheaterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328F26E324E900D7D060 /* TheaterModel.swift */; };
-		FF65329326E356FF00D7D060 /* SelectSeatBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65329226E356FF00D7D060 /* SelectSeatBuilder.swift */; };
+		FF65329026E324E900D7D060 /* TheaterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65328F26E324E900D7D060 /* TheaterEntity.swift */; };
+		FF65329326E356FF00D7D060 /* TheaterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65329226E356FF00D7D060 /* TheaterBuilder.swift */; };
 		FF65329626E35BC900D7D060 /* SeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65329526E35BC900D7D060 /* SeatView.swift */; };
+		FF65329926E3748900D7D060 /* TheaterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65329826E3748900D7D060 /* TheaterModel.swift */; };
+		FF6A99C326E6445300EE8F7D /* UpdateInfoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A99B926E6445300EE8F7D /* UpdateInfoPresenter.swift */; };
+		FF6A99C426E6445300EE8F7D /* UpdateInfoProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A99BB26E6445300EE8F7D /* UpdateInfoProtocol.swift */; };
+		FF6A99C626E6445300EE8F7D /* UpdateInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A99BE26E6445300EE8F7D /* UpdateInfoViewController.swift */; };
+		FF6A99C826E6445300EE8F7D /* UpdateInfoInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A99C126E6445300EE8F7D /* UpdateInfoInteractor.swift */; };
+		FF6A99CB26E647D300EE8F7D /* TheaterWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A99CA26E647D300EE8F7D /* TheaterWireframe.swift */; };
+		FF6A99CD26E6578300EE8F7D /* UserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6A99CC26E6578300EE8F7D /* UserInfoModel.swift */; };
+		FFE2DD0826EB611A004E39C5 /* UserInfoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE2DD0726EB611A004E39C5 /* UserInfoEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,12 +56,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0EF88A8BFB5086D9769262E4 /* Pods-booking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-booking.debug.xcconfig"; path = "Target Support Files/Pods-booking/Pods-booking.debug.xcconfig"; sourceTree = "<group>"; };
-		2D530027314FD8DC66CB174C /* Pods-bookingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookingTests.release.xcconfig"; path = "Target Support Files/Pods-bookingTests/Pods-bookingTests.release.xcconfig"; sourceTree = "<group>"; };
-		35034508BE7CDFFBC3691252 /* Pods_booking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_booking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A589CE9353C919B70C252AD6 /* Pods-bookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookingTests.debug.xcconfig"; path = "Target Support Files/Pods-bookingTests/Pods-bookingTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B17EF0DCC01CC7CDD3F96314 /* Pods_bookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bookingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8873BC7FCE90A1B6FF0C37B /* Pods-booking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-booking.release.xcconfig"; path = "Target Support Files/Pods-booking/Pods-booking.release.xcconfig"; sourceTree = "<group>"; };
+		0B5DDC2714BF7C0CCDE24BC5 /* Pods-bookingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookingTests.debug.xcconfig"; path = "Target Support Files/Pods-bookingTests/Pods-bookingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		497F2C16ED2A972334AD4C5E /* Pods-booking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-booking.debug.xcconfig"; path = "Target Support Files/Pods-booking/Pods-booking.debug.xcconfig"; sourceTree = "<group>"; };
+		56A892660319FC4604149101 /* Pods_bookingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bookingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8207BA3631009D216E15064E /* Pods-booking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-booking.release.xcconfig"; path = "Target Support Files/Pods-booking/Pods-booking.release.xcconfig"; sourceTree = "<group>"; };
+		ACCEBFB24C3696CE576CD121 /* Pods_booking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_booking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB3F4DC9D1B64652755C8892 /* Pods-bookingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookingTests.release.xcconfig"; path = "Target Support Files/Pods-bookingTests/Pods-bookingTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF65324626E310CA00D7D060 /* booking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = booking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF65324926E310CA00D7D060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF65324B26E310CA00D7D060 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,17 +76,25 @@
 		FF65326726E310CB00D7D060 /* bookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF65326B26E310CB00D7D060 /* bookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingUITests.swift; sourceTree = "<group>"; };
 		FF65326D26E310CB00D7D060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF65327C26E314A600D7D060 /* SelectSeatPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatPresenter.swift; sourceTree = "<group>"; };
-		FF65327E26E314B900D7D060 /* SelectSeatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatViewController.swift; sourceTree = "<group>"; };
-		FF65328026E314C700D7D060 /* SelectSeatInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatInteractor.swift; sourceTree = "<group>"; };
-		FF65328226E314EB00D7D060 /* SelectSeatProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatProtocol.swift; sourceTree = "<group>"; };
-		FF65328426E316A600D7D060 /* SeatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatModel.swift; sourceTree = "<group>"; };
+		FF65327C26E314A600D7D060 /* TheaterPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterPresenter.swift; sourceTree = "<group>"; };
+		FF65327E26E314B900D7D060 /* TheaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterViewController.swift; sourceTree = "<group>"; };
+		FF65328026E314C700D7D060 /* TheaterInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterInteractor.swift; sourceTree = "<group>"; };
+		FF65328226E314EB00D7D060 /* TheaterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterProtocol.swift; sourceTree = "<group>"; };
+		FF65328426E316A600D7D060 /* SeatEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatEntity.swift; sourceTree = "<group>"; };
 		FF65328626E31DCD00D7D060 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		FF65328926E31FDE00D7D060 /* BookingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingManager.swift; sourceTree = "<group>"; };
 		FF65328B26E3204400D7D060 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		FF65328F26E324E900D7D060 /* TheaterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterModel.swift; sourceTree = "<group>"; };
-		FF65329226E356FF00D7D060 /* SelectSeatBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSeatBuilder.swift; sourceTree = "<group>"; };
+		FF65328F26E324E900D7D060 /* TheaterEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterEntity.swift; sourceTree = "<group>"; };
+		FF65329226E356FF00D7D060 /* TheaterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterBuilder.swift; sourceTree = "<group>"; };
 		FF65329526E35BC900D7D060 /* SeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatView.swift; sourceTree = "<group>"; };
+		FF65329826E3748900D7D060 /* TheaterModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterModel.swift; sourceTree = "<group>"; };
+		FF6A99B926E6445300EE8F7D /* UpdateInfoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoPresenter.swift; sourceTree = "<group>"; };
+		FF6A99BB26E6445300EE8F7D /* UpdateInfoProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoProtocol.swift; sourceTree = "<group>"; };
+		FF6A99BE26E6445300EE8F7D /* UpdateInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoViewController.swift; sourceTree = "<group>"; };
+		FF6A99C126E6445300EE8F7D /* UpdateInfoInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoInteractor.swift; sourceTree = "<group>"; };
+		FF6A99CA26E647D300EE8F7D /* TheaterWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheaterWireframe.swift; sourceTree = "<group>"; };
+		FF6A99CC26E6578300EE8F7D /* UserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoModel.swift; sourceTree = "<group>"; };
+		FFE2DD0726EB611A004E39C5 /* UserInfoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				990B40F17A4CA2C0D4D39ACE /* Pods_booking.framework in Frameworks */,
+				26BFBEFA67546FE5D08E1AF7 /* Pods_booking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0667C7BC31B81C0527283012 /* Pods_bookingTests.framework in Frameworks */,
+				2169C264123EA9026E4B7CC6 /* Pods_bookingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -108,11 +124,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		36961B2C26FFC69E5B968984 /* Frameworks */ = {
+		621E91F6BD7EF0BEB49688FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				35034508BE7CDFFBC3691252 /* Pods_booking.framework */,
-				B17EF0DCC01CC7CDD3F96314 /* Pods_bookingTests.framework */,
+				ACCEBFB24C3696CE576CD121 /* Pods_booking.framework */,
+				56A892660319FC4604149101 /* Pods_bookingTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,10 +136,10 @@
 		82988C8A133DB4BCC89432AC /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0EF88A8BFB5086D9769262E4 /* Pods-booking.debug.xcconfig */,
-				C8873BC7FCE90A1B6FF0C37B /* Pods-booking.release.xcconfig */,
-				A589CE9353C919B70C252AD6 /* Pods-bookingTests.debug.xcconfig */,
-				2D530027314FD8DC66CB174C /* Pods-bookingTests.release.xcconfig */,
+				497F2C16ED2A972334AD4C5E /* Pods-booking.debug.xcconfig */,
+				8207BA3631009D216E15064E /* Pods-booking.release.xcconfig */,
+				0B5DDC2714BF7C0CCDE24BC5 /* Pods-bookingTests.debug.xcconfig */,
+				BB3F4DC9D1B64652755C8892 /* Pods-bookingTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -136,7 +152,7 @@
 				FF65326A26E310CB00D7D060 /* bookingUITests */,
 				FF65324726E310CA00D7D060 /* Products */,
 				82988C8A133DB4BCC89432AC /* Pods */,
-				36961B2C26FFC69E5B968984 /* Frameworks */,
+				621E91F6BD7EF0BEB49688FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,14 +169,12 @@
 		FF65324826E310CA00D7D060 /* booking */ = {
 			isa = PBXGroup;
 			children = (
+				FF6A99B626E6445300EE8F7D /* UpdateInformation */,
+				FF6A99B526E643F500EE8F7D /* Theater */,
+				FF65329726E3747000D7D060 /* model */,
 				FF65329426E35BB700D7D060 /* component */,
-				FF65329126E356E200D7D060 /* builder */,
-				FF65328E26E324C100D7D060 /* protocol */,
-				FF65328D26E324B200D7D060 /* model */,
+				FF65328D26E324B200D7D060 /* entity */,
 				FF65328826E31FC900D7D060 /* manager */,
-				FF65327B26E3143600D7D060 /* interactor */,
-				FF65327A26E3142800D7D060 /* view */,
-				FF65327926E3141A00D7D060 /* presenter */,
 				FF65324926E310CA00D7D060 /* AppDelegate.swift */,
 				FF65324B26E310CA00D7D060 /* SceneDelegate.swift */,
 				FF65324D26E310CA00D7D060 /* ViewController.swift */,
@@ -194,7 +208,7 @@
 		FF65327926E3141A00D7D060 /* presenter */ = {
 			isa = PBXGroup;
 			children = (
-				FF65327C26E314A600D7D060 /* SelectSeatPresenter.swift */,
+				FF65327C26E314A600D7D060 /* TheaterPresenter.swift */,
 			);
 			path = presenter;
 			sourceTree = "<group>";
@@ -202,7 +216,7 @@
 		FF65327A26E3142800D7D060 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				FF65327E26E314B900D7D060 /* SelectSeatViewController.swift */,
+				FF65327E26E314B900D7D060 /* TheaterViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -210,7 +224,7 @@
 		FF65327B26E3143600D7D060 /* interactor */ = {
 			isa = PBXGroup;
 			children = (
-				FF65328026E314C700D7D060 /* SelectSeatInteractor.swift */,
+				FF65328026E314C700D7D060 /* TheaterInteractor.swift */,
 			);
 			path = interactor;
 			sourceTree = "<group>";
@@ -224,19 +238,20 @@
 			path = manager;
 			sourceTree = "<group>";
 		};
-		FF65328D26E324B200D7D060 /* model */ = {
+		FF65328D26E324B200D7D060 /* entity */ = {
 			isa = PBXGroup;
 			children = (
-				FF65328426E316A600D7D060 /* SeatModel.swift */,
-				FF65328F26E324E900D7D060 /* TheaterModel.swift */,
+				FF65328426E316A600D7D060 /* SeatEntity.swift */,
+				FF65328F26E324E900D7D060 /* TheaterEntity.swift */,
+				FFE2DD0726EB611A004E39C5 /* UserInfoEntity.swift */,
 			);
-			path = model;
+			path = entity;
 			sourceTree = "<group>";
 		};
 		FF65328E26E324C100D7D060 /* protocol */ = {
 			isa = PBXGroup;
 			children = (
-				FF65328226E314EB00D7D060 /* SelectSeatProtocol.swift */,
+				FF65328226E314EB00D7D060 /* TheaterProtocol.swift */,
 			);
 			path = protocol;
 			sourceTree = "<group>";
@@ -244,7 +259,7 @@
 		FF65329126E356E200D7D060 /* builder */ = {
 			isa = PBXGroup;
 			children = (
-				FF65329226E356FF00D7D060 /* SelectSeatBuilder.swift */,
+				FF65329226E356FF00D7D060 /* TheaterBuilder.swift */,
 			);
 			path = builder;
 			sourceTree = "<group>";
@@ -257,6 +272,79 @@
 			path = component;
 			sourceTree = "<group>";
 		};
+		FF65329726E3747000D7D060 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				FF65329826E3748900D7D060 /* TheaterModel.swift */,
+				FF6A99CC26E6578300EE8F7D /* UserInfoModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		FF6A99B526E643F500EE8F7D /* Theater */ = {
+			isa = PBXGroup;
+			children = (
+				FF65329126E356E200D7D060 /* builder */,
+				FF6A99C926E6474A00EE8F7D /* wireframe */,
+				FF65328E26E324C100D7D060 /* protocol */,
+				FF65327926E3141A00D7D060 /* presenter */,
+				FF65327B26E3143600D7D060 /* interactor */,
+				FF65327A26E3142800D7D060 /* view */,
+			);
+			path = Theater;
+			sourceTree = "<group>";
+		};
+		FF6A99B626E6445300EE8F7D /* UpdateInformation */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A99B726E6445300EE8F7D /* presenter */,
+				FF6A99BA26E6445300EE8F7D /* protocol */,
+				FF6A99BD26E6445300EE8F7D /* view */,
+				FF6A99C026E6445300EE8F7D /* interactor */,
+			);
+			path = UpdateInformation;
+			sourceTree = "<group>";
+		};
+		FF6A99B726E6445300EE8F7D /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A99B926E6445300EE8F7D /* UpdateInfoPresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		FF6A99BA26E6445300EE8F7D /* protocol */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A99BB26E6445300EE8F7D /* UpdateInfoProtocol.swift */,
+			);
+			path = protocol;
+			sourceTree = "<group>";
+		};
+		FF6A99BD26E6445300EE8F7D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A99BE26E6445300EE8F7D /* UpdateInfoViewController.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FF6A99C026E6445300EE8F7D /* interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A99C126E6445300EE8F7D /* UpdateInfoInteractor.swift */,
+			);
+			path = interactor;
+			sourceTree = "<group>";
+		};
+		FF6A99C926E6474A00EE8F7D /* wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				FF6A99CA26E647D300EE8F7D /* TheaterWireframe.swift */,
+			);
+			path = wireframe;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -264,11 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF65327026E310CB00D7D060 /* Build configuration list for PBXNativeTarget "booking" */;
 			buildPhases = (
-				73DBBF3A18CFF42D8DC3D4E0 /* [CP] Check Pods Manifest.lock */,
+				48BCC43B6244444AA953A0E4 /* [CP] Check Pods Manifest.lock */,
 				FF65324226E310CA00D7D060 /* Sources */,
 				FF65324326E310CA00D7D060 /* Frameworks */,
 				FF65324426E310CA00D7D060 /* Resources */,
-				191B4A24E8DA9491728155E5 /* [CP] Embed Pods Frameworks */,
+				658320CC6722A02C7808924B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -283,11 +371,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF65327326E310CB00D7D060 /* Build configuration list for PBXNativeTarget "bookingTests" */;
 			buildPhases = (
-				2BEF70AE5AE62B7B90FE541E /* [CP] Check Pods Manifest.lock */,
+				78DF3A22DB1E3EC7B93D184A /* [CP] Check Pods Manifest.lock */,
 				FF65325826E310CB00D7D060 /* Sources */,
 				FF65325926E310CB00D7D060 /* Frameworks */,
 				FF65325A26E310CB00D7D060 /* Resources */,
-				34B15230BA235E69A51D32C1 /* [CP] Embed Pods Frameworks */,
+				F855C6F67F8CCEFC472B2D4A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -387,63 +475,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		191B4A24E8DA9491728155E5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-booking/Pods-booking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-booking/Pods-booking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-booking/Pods-booking-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2BEF70AE5AE62B7B90FE541E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-bookingTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		34B15230BA235E69A51D32C1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bookingTests/Pods-bookingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-bookingTests/Pods-bookingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bookingTests/Pods-bookingTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		73DBBF3A18CFF42D8DC3D4E0 /* [CP] Check Pods Manifest.lock */ = {
+		48BCC43B6244444AA953A0E4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -465,6 +497,62 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		658320CC6722A02C7808924B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-booking/Pods-booking-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-booking/Pods-booking-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-booking/Pods-booking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78DF3A22DB1E3EC7B93D184A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bookingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F855C6F67F8CCEFC472B2D4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bookingTests/Pods-bookingTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bookingTests/Pods-bookingTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bookingTests/Pods-bookingTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -472,18 +560,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF65329326E356FF00D7D060 /* SelectSeatBuilder.swift in Sources */,
+				FF65329326E356FF00D7D060 /* TheaterBuilder.swift in Sources */,
 				FF65328726E31DCD00D7D060 /* Extension.swift in Sources */,
-				FF65328526E316A600D7D060 /* SeatModel.swift in Sources */,
-				FF65327F26E314B900D7D060 /* SelectSeatViewController.swift in Sources */,
+				FF65328526E316A600D7D060 /* SeatEntity.swift in Sources */,
+				FF6A99C626E6445300EE8F7D /* UpdateInfoViewController.swift in Sources */,
+				FF6A99C326E6445300EE8F7D /* UpdateInfoPresenter.swift in Sources */,
+				FF65327F26E314B900D7D060 /* TheaterViewController.swift in Sources */,
+				FF6A99C826E6445300EE8F7D /* UpdateInfoInteractor.swift in Sources */,
+				FF6A99CB26E647D300EE8F7D /* TheaterWireframe.swift in Sources */,
+				FF65329926E3748900D7D060 /* TheaterModel.swift in Sources */,
 				FF65328A26E31FDE00D7D060 /* BookingManager.swift in Sources */,
-				FF65328126E314C700D7D060 /* SelectSeatInteractor.swift in Sources */,
+				FF65328126E314C700D7D060 /* TheaterInteractor.swift in Sources */,
 				FF65328C26E3204400D7D060 /* APIClient.swift in Sources */,
 				FF65324E26E310CA00D7D060 /* ViewController.swift in Sources */,
-				FF65329026E324E900D7D060 /* TheaterModel.swift in Sources */,
-				FF65327D26E314A600D7D060 /* SelectSeatPresenter.swift in Sources */,
-				FF65328326E314EB00D7D060 /* SelectSeatProtocol.swift in Sources */,
+				FF65329026E324E900D7D060 /* TheaterEntity.swift in Sources */,
+				FF65327D26E314A600D7D060 /* TheaterPresenter.swift in Sources */,
+				FF6A99C426E6445300EE8F7D /* UpdateInfoProtocol.swift in Sources */,
+				FF65328326E314EB00D7D060 /* TheaterProtocol.swift in Sources */,
 				FF65329626E35BC900D7D060 /* SeatView.swift in Sources */,
+				FF6A99CD26E6578300EE8F7D /* UserInfoModel.swift in Sources */,
+				FFE2DD0826EB611A004E39C5 /* UserInfoEntity.swift in Sources */,
 				FF65324A26E310CA00D7D060 /* AppDelegate.swift in Sources */,
 				FF65324C26E310CA00D7D060 /* SceneDelegate.swift in Sources */,
 			);
@@ -658,13 +754,14 @@
 		};
 		FF65327126E310CB00D7D060 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0EF88A8BFB5086D9769262E4 /* Pods-booking.debug.xcconfig */;
+			baseConfigurationReference = 497F2C16ED2A972334AD4C5E /* Pods-booking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJXSL75S29;
 				INFOPLIST_FILE = booking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -678,13 +775,14 @@
 		};
 		FF65327226E310CB00D7D060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C8873BC7FCE90A1B6FF0C37B /* Pods-booking.release.xcconfig */;
+			baseConfigurationReference = 8207BA3631009D216E15064E /* Pods-booking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SJXSL75S29;
 				INFOPLIST_FILE = booking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -698,7 +796,7 @@
 		};
 		FF65327426E310CB00D7D060 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A589CE9353C919B70C252AD6 /* Pods-bookingTests.debug.xcconfig */;
+			baseConfigurationReference = 0B5DDC2714BF7C0CCDE24BC5 /* Pods-bookingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -721,7 +819,7 @@
 		};
 		FF65327526E310CB00D7D060 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D530027314FD8DC66CB174C /* Pods-bookingTests.release.xcconfig */;
+			baseConfigurationReference = BB3F4DC9D1B64652755C8892 /* Pods-bookingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

@@ -12,8 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        UIApplication.shared.windows.first?.rootViewController = SelectSeatBuilder.createViewSelectSeat()
-        UIApplication.shared.windows.first?.makeKeyAndVisible()
+        APIClient.shared.setDefaultHeader(params: nil)
         return true
     }
 

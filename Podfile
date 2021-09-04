@@ -9,4 +9,5 @@ end
 target 'booking' do
     pod 'SnapKit', '~> 5.0.0'
     pod 'Alamofire', '~> 5.4'
+    pod 'ReactiveCocoa', '~> 10.1'
 end

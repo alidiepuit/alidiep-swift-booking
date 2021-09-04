@@ -9,13 +9,19 @@ import UIKit
 
 class SeatView: UIButton {
     var position: SeatPosition
+    var price: Float
     
-    init(position: SeatPosition) {
+    init(position: SeatPosition, enable: Bool = true, price: Float) {
         self.position = position
+        self.price = price
         super.init(frame: CGRect.zero)
-        self.roundCorners(corners: UIRectCorner.bottomLeft, radius: 5)
-        self.roundCorners(corners: UIRectCorner.bottomRight, radius: 5)
         self.layer.masksToBounds = true
+        self.isUserInteractionEnabled = true
+        self.layer.maskedCorners = [.layerMaxXMaxYCorner, .layerMinXMaxYCorner]
+        self.layer.cornerRadius = 5
+        self.contentMode = .scaleAspectFit
+        self.isEnabled = enable
+        self.backgroundColor = !enable ? UIColor.fromRGB(rgbValue: 0xC1C1C1) : UIColor.clear
     }
     
     required init?(coder: NSCoder) {
@@ -29,14 +35,22 @@ class SeatView: UIButton {
     }
     
     func didSelected(_ selected: Bool) {
-        
+        self.backgroundColor = selected ? UIColor.black : UIColor.fromRGB(rgbValue: 0xF8F8F8)
+    }
+    
+    func didOccupied() {
+        self.isEnabled = false
+        self.backgroundColor = UIColor.fromRGB(rgbValue: 0xC1C1C1)
+        self.layer.borderWidth = 1
+        self.layoutIfNeeded()
     }
 }
 
 class StandardSeatView: SeatView {
-    override init(position: SeatPosition) {
-        super.init(position: position)
+    override init(position: SeatPosition, enable: Bool = true, price: Float) {
+        super.init(position: position, enable: enable, price: price)
         self.layer.borderColor = UIColor.black.cgColor
+        self.layer.borderWidth = 1
     }
     
     required init?(coder: NSCoder) {
@@ -53,10 +67,11 @@ class StandardSeatView: SeatView {
 }
 
 class OccupiedSeatView: SeatView {
-    override init(position: SeatPosition) {
-        super.init(position: position)
+    init(position: SeatPosition) {
+        super.init(position: position, enable: false, price: 0)
         self.isEnabled = false
-        self.backgroundColor = UIColor.gray
+        self.backgroundColor = UIColor.fromRGB(rgbValue: 0xC1C1C1)
+        self.layer.borderWidth = 1
     }
     
     required init?(coder: NSCoder) {
@@ -66,10 +81,11 @@ class OccupiedSeatView: SeatView {
 }
 
 class NotBookableSeatView: SeatView {
-    override init(position: SeatPosition) {
-        super.init(position: position)
+    init(position: SeatPosition) {
+        super.init(position: position, enable: false, price: 0)
         self.isEnabled = false
         self.setBackgroundImage(UIImage(named: "not_bookable"), for: .normal)
+        self.setBackgroundImage(UIImage(named: "not_bookable"), for: .disabled)
     }
     
     required init?(coder: NSCoder) {
@@ -79,9 +95,10 @@ class NotBookableSeatView: SeatView {
 }
 
 class VipSeatView: SeatView {
-    override init(position: SeatPosition) {
-        super.init(position: position)
-        self.layer.borderColor = UIColor.red.cgColor
+    override init(position: SeatPosition, enable: Bool, price: Float) {
+        super.init(position: position, enable: enable, price: price)
+        self.layer.borderColor = UIColor.fromRGB(rgbValue: 0xEC4F4B).cgColor
+        self.layer.borderWidth = 1
     }
     
     required init?(coder: NSCoder) {
@@ -91,9 +108,10 @@ class VipSeatView: SeatView {
 }
 
 class ReclinerSeatView: SeatView {
-    override init(position: SeatPosition) {
-        super.init(position: position)
-        self.layer.borderColor = UIColor.systemPink.cgColor
+    override init(position: SeatPosition, enable: Bool, price: Float) {
+        super.init(position: position, enable: enable, price: price)
+        self.layer.borderColor = UIColor.fromRGB(rgbValue: 0xEC4F4B).cgColor
+        self.layer.borderWidth = 1
     }
     
     required init?(coder: NSCoder) {
@@ -103,11 +121,12 @@ class ReclinerSeatView: SeatView {
 }
 
 class WheelChairSeatView: SeatView {
-    override init(position: SeatPosition) {
-        super.init(position: position)
-        self.isEnabled = false
-        self.tintColor = UIColor.blue
-        self.setBackgroundImage(UIImage(named: "wheel_chair"), for: .normal)
+    init(position: SeatPosition) {
+        super.init(position: position, enable: false, price: 0)
+        self.backgroundColor = UIColor.clear
+        self.tintColor = UIColor.fromRGB(rgbValue: 0x82B2D1)
+        self.setBackgroundImage(UIImage(named: "wheel_chair")?.withTintColor(UIColor.fromRGB(rgbValue: 0x82B2D1)), for: .normal)
+        self.setBackgroundImage(UIImage(named: "wheel_chair")?.withTintColor(UIColor.fromRGB(rgbValue: 0x82B2D1)), for: .disabled)
     }
     
     required init?(coder: NSCoder) {
