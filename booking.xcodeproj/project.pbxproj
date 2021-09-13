@@ -15,7 +15,7 @@
 		FF65325126E310CA00D7D060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF65324F26E310CA00D7D060 /* Main.storyboard */; };
 		FF65325326E310CB00D7D060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF65325226E310CB00D7D060 /* Assets.xcassets */; };
 		FF65325626E310CB00D7D060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF65325426E310CB00D7D060 /* LaunchScreen.storyboard */; };
-		FF65326126E310CB00D7D060 /* bookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65326026E310CB00D7D060 /* bookingTests.swift */; };
+		FF65326126E310CB00D7D060 /* bookingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65326026E310CB00D7D060 /* bookingManagerTests.swift */; };
 		FF65326C26E310CB00D7D060 /* bookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65326B26E310CB00D7D060 /* bookingUITests.swift */; };
 		FF65327D26E314A600D7D060 /* TheaterPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65327C26E314A600D7D060 /* TheaterPresenter.swift */; };
 		FF65327F26E314B900D7D060 /* TheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF65327E26E314B900D7D060 /* TheaterViewController.swift */; };
@@ -71,7 +71,7 @@
 		FF65325526E310CB00D7D060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF65325726E310CB00D7D060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF65325C26E310CB00D7D060 /* bookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF65326026E310CB00D7D060 /* bookingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingTests.swift; sourceTree = "<group>"; };
+		FF65326026E310CB00D7D060 /* bookingManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingManagerTests.swift; sourceTree = "<group>"; };
 		FF65326226E310CB00D7D060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF65326726E310CB00D7D060 /* bookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF65326B26E310CB00D7D060 /* bookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bookingUITests.swift; sourceTree = "<group>"; };
@@ -190,7 +190,7 @@
 		FF65325F26E310CB00D7D060 /* bookingTests */ = {
 			isa = PBXGroup;
 			children = (
-				FF65326026E310CB00D7D060 /* bookingTests.swift */,
+				FF65326026E310CB00D7D060 /* bookingManagerTests.swift */,
 				FF65326226E310CB00D7D060 /* Info.plist */,
 			);
 			path = bookingTests;
@@ -589,7 +589,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF65326126E310CB00D7D060 /* bookingTests.swift in Sources */,
+				FF65326126E310CB00D7D060 /* bookingManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
